@@ -43,6 +43,9 @@ Create a file .html
 **Install packages:**
 npm install
 
+### Video
+http://take.ms/5NRHy
+
 **Run:**
 npm run start or gulp
 
