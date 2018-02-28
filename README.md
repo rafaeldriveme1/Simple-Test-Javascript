@@ -43,14 +43,14 @@ Create a file .html
 **Install packages:**
 npm install
 
-### Video
-http://take.ms/5NRHy
-
 **Run:**
 npm run start or gulp
 
 **Browser:**
 http://localhost:8080/specs/
+
+### Video
+http://take.ms/5NRHy
 
 ### Test file
 
