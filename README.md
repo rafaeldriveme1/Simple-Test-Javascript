@@ -12,26 +12,28 @@ Create a file .html
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="pt-BR">
 	<head>
-		<title>Simple Test Javascript</title>
-		<link href="../dist/simple.test.min.css" rel="stylesheet" type="text/css" />
+		<title>Semaphore | Do your TDD tests in a simpler way</title>
+		<!-- Semaphore -->
+		<link href="../dist/semaphore.jstest.min.css" rel="stylesheet" type="text/css" />
+		<!-- / Semaphore -->
 	</head>
 	<body>
 		
-		<!-- Simple Test Javascript element -->
+		<!-- Semaphore element -->
 		<div class="wrapper-test">
 			<div id="app-test"></div>		
 		</div>
-		<!-- Simple Test Javascript element -->
+		<!-- Semaphore element -->
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="./src/calculate.js"></script>
 		<script src="./src/user.js"></script>
 
-		<!-- Simple Test Javascript -->
-		<script src="../dist/simple.test.min.js"></script>
+		<!-- Semaphore -->
+		<script src="../dist/semaphore.jstest.min.js"></script>
 		<script src="./CalculatorTest.js"></script>
 		<script src="./UserTest.js"></script>
-		<!-- / Simple Test Javascript -->
+		<!-- / Semaphore -->
 
 	</body>
 </html>
