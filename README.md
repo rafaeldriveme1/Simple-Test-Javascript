@@ -1,4 +1,4 @@
-# Simple Test Javascript
+![Screenshot](logo.jpg)
 Do your TDD tests in a simpler way
 
 ### Requirements

@@ -1,5 +1,5 @@
 /*
-Simple Test Javascript
+Semaphore Javascript Test
 Do your TDD tests in a simpler way
 Created By Rafael Cruz
 Contact: rafaeldriveme@gmail.com
