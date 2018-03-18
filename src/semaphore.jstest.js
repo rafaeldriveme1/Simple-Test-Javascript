@@ -26,6 +26,8 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
+//import $ from 'jquery';
+
 window.total_tests_oks = 0;
 window.total_tests_fails = 0;
 window.total_tests = 0;
@@ -111,6 +113,8 @@ var app = {
         
     },
     init: function(){
+
+        if($("#status").length) return;
         
         this.methods.status();
         this.events();
@@ -118,11 +122,11 @@ var app = {
     }
 }
 
-app.init();
-
 class Test {
 
     constructor(description_test, fn) {
+
+        app.init();
 
         if (!description_test) return;
 
@@ -256,4 +260,8 @@ class Test {
 
     }
 
+}
+
+if(typeof module !== 'undefined' && typeof module.exports !== 'undefined'){
+    module.exports = Test;
 }
